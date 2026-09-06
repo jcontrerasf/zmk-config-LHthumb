@@ -1,0 +1,6 @@
+if SHIELD_LHTHUMB
+
+config ZMK_KEYBOARD_NAME
+    default "LHthumb"
+
+endif # SHIELD_LHTHUMB
