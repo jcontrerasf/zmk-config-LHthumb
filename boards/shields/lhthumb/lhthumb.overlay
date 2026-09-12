@@ -20,7 +20,7 @@
          * X = P0.02 = AIN0
          * Y = P0.29 = AIN5
          */
-        io-channels = <&adc 0>, <&adc 5>;
+        io-channels = <&adc 0>, <&adc 1>;
 
         x-center = <2048>;
         x-min = <0>;
