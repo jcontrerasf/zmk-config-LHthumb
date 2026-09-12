@@ -23,4 +23,3 @@ include:
     shield: lhthumb
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y

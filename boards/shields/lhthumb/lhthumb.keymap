@@ -11,11 +11,28 @@
 
         default_layer {
             bindings = <
-                &kp N1 &kp N2 &kp N3 &kp N4
+                &lt 1 N1 &kp N2    &kp N3      &kp N4
+                &kp N5   &kp N6    &kp N7      &kp N8
+                &kp N9   &kp N0    &kp RSHIFT  &kp SPACE  &kp U
+                &kp D    &kp A     &kp W       &kp S
+            >;
+        };
+
+        second_layer {
+            bindings = <
+                &kp A  &kp B  &kp C  &studio_unlock
                 &kp N5 &kp N6 &kp N7 &kp N8
                 &kp N9 &kp N0 &kp E  &kp O  &kp U
-                &kp W  &kp A  &kp S  &kp D
+                &kp D  &kp A  &kp W  &kp S
             >;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
         };
     };
 };
