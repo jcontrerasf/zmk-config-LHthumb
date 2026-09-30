@@ -3,6 +3,8 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/analog-stick/modes.h>
 
 / {
@@ -20,8 +22,8 @@
 
         second_layer {
             bindings = <
-                &kp A  &kp B  &kp C  &studio_unlock
-                &kp N5 &kp N6 &kp N7 &kp N8
+                &kp A       &kp B          &kp C          &studio_unlock
+                &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &out OUT_TOG
                 &kp N9 &kp N0 &kp E  &kp O  &kp U
                 &kp D  &kp A  &kp W  &kp S
             >;
